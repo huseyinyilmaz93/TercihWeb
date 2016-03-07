@@ -1,0 +1,9 @@
+C:\Users\huseyin.yilmaz\Desktop\ProjeYerlestirme\DatabaseInfo\LisePuanlariInfo\bin\Debug\LisePuanlariInfo.exe.config
+C:\Users\huseyin.yilmaz\Desktop\ProjeYerlestirme\DatabaseInfo\LisePuanlariInfo\bin\Debug\LisePuanlariInfo.exe
+C:\Users\huseyin.yilmaz\Desktop\ProjeYerlestirme\DatabaseInfo\LisePuanlariInfo\bin\Debug\LisePuanlariInfo.pdb
+C:\Users\huseyin.yilmaz\Desktop\ProjeYerlestirme\DatabaseInfo\LisePuanlariInfo\bin\Debug\HtmlAgilityPack.dll
+C:\Users\huseyin.yilmaz\Desktop\ProjeYerlestirme\DatabaseInfo\LisePuanlariInfo\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\huseyin.yilmaz\Desktop\ProjeYerlestirme\DatabaseInfo\LisePuanlariInfo\bin\Debug\HtmlAgilityPack.xml
+C:\Users\huseyin.yilmaz\Desktop\ProjeYerlestirme\DatabaseInfo\LisePuanlariInfo\obj\Debug\LisePuanlariInfo.exe
+C:\Users\huseyin.yilmaz\Desktop\ProjeYerlestirme\DatabaseInfo\LisePuanlariInfo\obj\Debug\LisePuanlariInfo.pdb
+C:\Users\huseyin.yilmaz\Desktop\ProjeYerlestirme\DatabaseInfo\LisePuanlariInfo\obj\Debug\LisePuanlariInfo.csprojResolveAssemblyReference.cache

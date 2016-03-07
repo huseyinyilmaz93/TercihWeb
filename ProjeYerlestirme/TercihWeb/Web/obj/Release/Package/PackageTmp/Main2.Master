@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main2.master.cs" Inherits="Web.Main2" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="Content/css/Main2.css" rel="stylesheet" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <title>Tercih Web Solution</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<div id="templatemo_header_wrapper">
+    <div id="templatemo_header">
+    	<div id="site_title">
+            <h1><a href="Default.aspx">
+                <img src="Content/css/images/tercihweb.jpg" alt="Tercih Web Solution" />
+                <span>Tercih WEB Solution</span>
+            </a></h1>
+        </div>
+        <p>Üniversite ve liseye girişte tercih hakkında <br />aradığınız herşey ... </p>
+    
+    </div> <!-- end of templatemo_header -->
+
+</div> <!-- end of templatemo_menu_wrapper -->
+
+<div id="templatemo_menu_wrapper">
+    <div id="templatemo_menu">
+        <ul>
+            <li><a href="Default.aspx" class="current">Anasayfa</a></li>
+            <li><a href="PuanHesaplama.aspx">Puan Hesaplama</a></li>
+            <li><a href="UniPuan.aspx">Üniversite Puanları</a></li>
+            <li><a href="LisePuan.aspx">Lise Puanları</a></li>
+            <li><a href="Duyurular.aspx">Duyurular</a></li>
+            <li><a href="HataBildir.aspx">Hata Bildir</a></li>
+        </ul>    	
+    
+    </div> <!-- end of templatemo_menu -->
+</div>
+
+<div id="templatemo_content_wrapper">
+    
+    <div id="templatemo_content">
+    
+    	<div class="content_box">
+                <asp:ContentPlaceHolder ID="OrtakAlan" runat="server">
+                </asp:ContentPlaceHolder>
+        </div><div class="content_box_bottom"></div>
+        
+    
+    </div> <!-- end of content -->
+    
+    <div class="cleaner"></div>
+
+</div>
+
+<div id="templatemo_footer_wrapper">
+    <div id="templatemo_footer">
+        <ul class="footer_menu">
+            <li><a href="Default.aspx">Anasayfa</a></li>
+            <li><a href="PuanHesaplama.aspx">Puan Hesaplama</a></li>
+            <li><a href="UniPuan.aspx">Üniversite Puanları</a></li>
+            <li><a href="LisePuan.aspx">Lise Puanları</a></li>
+            <li><a href="Duyurular.aspx">Duyurular</a></li>
+            <li class="last_menu"><a href="HataBildir.aspx">Hata Bildir</a></li>
+        </ul>
+                Copyright © 2048 <a href="#">Hüseyin Yılmaz</a> <!-- Credit: www.templatemo.com -->| Yalova Üniversitesi Bilgisayar Mühendisliği Bölümü Öğrencisi
+    </div>
+    
+</div>
+<!-- templatemo 213 education -->
+<!-- 
+Education Template 
+http://www.templatemo.com/preview/templatemo_213_education 
+-->
+</body>
+</html>
+

@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B16C64FF-45CC-4B87-B247-284ADE78FDCF}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Web</RootNamespace>
+    <AssemblyName>Web</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\css\Default.css" />
+    <Content Include="Content\css\Duyurular.css" />
+    <Content Include="Content\css\HataBildir.css" />
+    <Content Include="Content\css\images\templatemo_content_bottom2.jpg" />
+    <Content Include="Content\css\images\tercihweb.jpg" />
+    <Content Include="Content\css\images\yukleniyor.gif" />
+    <Content Include="Content\css\LisePuan.css" />
+    <Content Include="Content\css\LisePuanHesaplama.css" />
+    <Content Include="Content\css\UniPuan.css" />
+    <Content Include="Content\css\UniPuanHesaplama.css" />
+    <Content Include="Content\css\PuanHesaplama.css" />
+    <Content Include="Content\jquery Source\jquery-2.1.4.js" />
+    <Content Include="Content\jquery Source\jqueryResource214.js" />
+    <Content Include="Content\js\Default.js" />
+    <Content Include="Content\js\Duyuru.js" />
+    <Content Include="Content\js\Duyurular.js" />
+    <Content Include="Content\js\HataBildir.js" />
+    <Content Include="Content\js\LisePuanHesaplama.js" />
+    <Content Include="Content\js\Main.js" />
+    <Content Include="Content\js\UniPuanHesaplama.js" />
+    <Content Include="Content\css\Main2.css" />
+    <Content Include="Duyurular.aspx" />
+    <Content Include="HataBildir.aspx" />
+    <Content Include="LisePuan.aspx" />
+    <Content Include="LisePuanHesaplama.aspx" />
+    <Content Include="Main.Master" />
+    <Content Include="Main2.Master" />
+    <None Include="Properties\PublishProfiles\TercihWeb.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\css\images\templatemo_body.jpg" />
+    <Content Include="Content\css\images\templatemo_content_bottom.jpg" />
+    <Content Include="Content\css\images\templatemo_footer_top.jpg" />
+    <Content Include="Content\css\images\templatemo_header.jpg" />
+    <Content Include="Content\css\images\templatemo_images01.jpg" />
+    <Content Include="Content\css\images\templatemo_logo.png" />
+    <Content Include="Content\css\images\templatemo_menu.jpg" />
+    <Content Include="Content\css\images\templatemo_menu_hover.jpg" />
+    <Content Include="Content\css\images\templatemo_sidebar_section_bottom.jpg" />
+    <Content Include="Content\css\Main.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="PuanHesaplama.aspx" />
+    <Content Include="UniPuan.aspx" />
+    <Content Include="UniPuanHesaplama.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Duyurular.aspx.cs">
+      <DependentUpon>Duyurular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Duyurular.aspx.designer.cs">
+      <DependentUpon>Duyurular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HataBildir.aspx.cs">
+      <DependentUpon>HataBildir.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HataBildir.aspx.designer.cs">
+      <DependentUpon>HataBildir.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LisePuan.aspx.cs">
+      <DependentUpon>LisePuan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LisePuan.aspx.designer.cs">
+      <DependentUpon>LisePuan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LisePuanHesaplama.aspx.cs">
+      <DependentUpon>LisePuanHesaplama.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LisePuanHesaplama.aspx.designer.cs">
+      <DependentUpon>LisePuanHesaplama.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Main2.Master.cs">
+      <DependentUpon>Main2.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main2.Master.designer.cs">
+      <DependentUpon>Main2.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PuanHesaplama.aspx.cs">
+      <DependentUpon>PuanHesaplama.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PuanHesaplama.aspx.designer.cs">
+      <DependentUpon>PuanHesaplama.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UniPuan.aspx.cs">
+      <DependentUpon>UniPuan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UniPuan.aspx.designer.cs">
+      <DependentUpon>UniPuan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UniPuanHesaplama.aspx.cs">
+      <DependentUpon>UniPuanHesaplama.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UniPuanHesaplama.aspx.designer.cs">
+      <DependentUpon>UniPuanHesaplama.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BAL\BAL.csproj">
+      <Project>{68d2ed44-3800-48ad-9b20-e5b885b72be3}</Project>
+      <Name>BAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49784</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49784/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

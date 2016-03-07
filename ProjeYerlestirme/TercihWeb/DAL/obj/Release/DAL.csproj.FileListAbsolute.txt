@@ -1,0 +1,5 @@
+C:\Users\huseyin.yilmaz\Desktop\ProjeYerlestirme\TercihWeb\DAL\bin\Release\DAL.dll
+C:\Users\huseyin.yilmaz\Desktop\ProjeYerlestirme\TercihWeb\DAL\bin\Release\DAL.pdb
+C:\Users\huseyin.yilmaz\Desktop\ProjeYerlestirme\TercihWeb\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+C:\Users\huseyin.yilmaz\Desktop\ProjeYerlestirme\TercihWeb\DAL\obj\Release\DAL.dll
+C:\Users\huseyin.yilmaz\Desktop\ProjeYerlestirme\TercihWeb\DAL\obj\Release\DAL.pdb

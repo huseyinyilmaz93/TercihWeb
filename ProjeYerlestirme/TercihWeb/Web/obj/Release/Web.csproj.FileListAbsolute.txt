@@ -1,0 +1,10 @@
+C:\Users\huseyin.yilmaz\Desktop\ProjeYerlestirme\TercihWeb\Web\bin\Web.dll.config
+C:\Users\huseyin.yilmaz\Desktop\ProjeYerlestirme\TercihWeb\Web\bin\Web.dll
+C:\Users\huseyin.yilmaz\Desktop\ProjeYerlestirme\TercihWeb\Web\bin\Web.pdb
+C:\Users\huseyin.yilmaz\Desktop\ProjeYerlestirme\TercihWeb\Web\bin\BAL.dll
+C:\Users\huseyin.yilmaz\Desktop\ProjeYerlestirme\TercihWeb\Web\bin\DAL.dll
+C:\Users\huseyin.yilmaz\Desktop\ProjeYerlestirme\TercihWeb\Web\bin\BAL.pdb
+C:\Users\huseyin.yilmaz\Desktop\ProjeYerlestirme\TercihWeb\Web\bin\DAL.pdb
+C:\Users\huseyin.yilmaz\Desktop\ProjeYerlestirme\TercihWeb\Web\obj\Release\Web.csprojResolveAssemblyReference.cache
+C:\Users\huseyin.yilmaz\Desktop\ProjeYerlestirme\TercihWeb\Web\obj\Release\Web.dll
+C:\Users\huseyin.yilmaz\Desktop\ProjeYerlestirme\TercihWeb\Web\obj\Release\Web.pdb

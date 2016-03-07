@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\huseyin.yilmaz\TercihWeb</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/BAL.dll">
+      <publishTime>10/27/2015 15:06:26</publishTime>
+    </File>
+    <File Include="bin/DAL.dll">
+      <publishTime>10/26/2015 11:53:12</publishTime>
+    </File>
+    <File Include="bin/Web.dll">
+      <publishTime>10/27/2015 15:06:26</publishTime>
+    </File>
+    <File Include="Content/css/Default.css">
+      <publishTime>08/18/2015 14:08:05</publishTime>
+    </File>
+    <File Include="Content/css/Duyurular.css">
+      <publishTime>10/01/2015 17:04:51</publishTime>
+    </File>
+    <File Include="Content/css/HataBildir.css">
+      <publishTime>08/18/2015 13:44:52</publishTime>
+    </File>
+    <File Include="Content/css/images/templatemo_body.jpg">
+      <publishTime>11/02/2009 09:52:40</publishTime>
+    </File>
+    <File Include="Content/css/images/templatemo_content_bottom.jpg">
+      <publishTime>11/01/2009 20:10:22</publishTime>
+    </File>
+    <File Include="Content/css/images/templatemo_content_bottom2.jpg">
+      <publishTime>08/11/2015 14:42:54</publishTime>
+    </File>
+    <File Include="Content/css/images/templatemo_footer_top.jpg">
+      <publishTime>11/01/2009 20:10:32</publishTime>
+    </File>
+    <File Include="Content/css/images/templatemo_header.jpg">
+      <publishTime>11/01/2009 20:07:20</publishTime>
+    </File>
+    <File Include="Content/css/images/templatemo_images01.jpg">
+      <publishTime>11/04/2009 09:43:32</publishTime>
+    </File>
+    <File Include="Content/css/images/templatemo_logo.png">
+      <publishTime>08/18/2015 14:21:49</publishTime>
+    </File>
+    <File Include="Content/css/images/templatemo_menu.jpg">
+      <publishTime>08/02/2015 13:09:53</publishTime>
+    </File>
+    <File Include="Content/css/images/templatemo_menu_hover.jpg">
+      <publishTime>08/02/2015 13:09:47</publishTime>
+    </File>
+    <File Include="Content/css/images/templatemo_sidebar_section_bottom.jpg">
+      <publishTime>11/01/2009 20:10:54</publishTime>
+    </File>
+    <File Include="Content/css/images/tercihweb.jpg">
+      <publishTime>08/18/2015 14:32:28</publishTime>
+    </File>
+    <File Include="Content/css/images/yukleniyor.gif">
+      <publishTime>08/18/2015 10:33:41</publishTime>
+    </File>
+    <File Include="Content/css/LisePuan.css">
+      <publishTime>08/12/2015 12:47:22</publishTime>
+    </File>
+    <File Include="Content/css/LisePuanHesaplama.css">
+      <publishTime>08/11/2015 12:44:16</publishTime>
+    </File>
+    <File Include="Content/css/Main.css">
+      <publishTime>10/01/2015 16:57:14</publishTime>
+    </File>
+    <File Include="Content/css/Main2.css">
+      <publishTime>10/01/2015 16:59:23</publishTime>
+    </File>
+    <File Include="Content/css/PuanHesaplama.css">
+      <publishTime>08/07/2015 15:14:13</publishTime>
+    </File>
+    <File Include="Content/css/UniPuan.css">
+      <publishTime>08/11/2015 18:15:19</publishTime>
+    </File>
+    <File Include="Content/css/UniPuanHesaplama.css">
+      <publishTime>08/10/2015 21:43:25</publishTime>
+    </File>
+    <File Include="Content/jquery Source/jquery-2.1.4.js">
+      <publishTime>08/16/2015 12:59:46</publishTime>
+    </File>
+    <File Include="Content/jquery Source/jqueryResource214.js">
+      <publishTime>10/01/2015 16:50:52</publishTime>
+    </File>
+    <File Include="Content/js/Default.js">
+      <publishTime>08/18/2015 14:06:25</publishTime>
+    </File>
+    <File Include="Content/js/Duyuru.js">
+      <publishTime>10/01/2015 16:51:16</publishTime>
+    </File>
+    <File Include="Content/js/Duyurular.js">
+      <publishTime>10/01/2015 17:04:58</publishTime>
+    </File>
+    <File Include="Content/js/HataBildir.js">
+      <publishTime>08/18/2015 13:35:18</publishTime>
+    </File>
+    <File Include="Content/js/LisePuanHesaplama.js">
+      <publishTime>08/11/2015 13:02:32</publishTime>
+    </File>
+    <File Include="Content/js/Main.js">
+      <publishTime>10/01/2015 17:15:48</publishTime>
+    </File>
+    <File Include="Content/js/UniPuanHesaplama.js">
+      <publishTime>08/11/2015 12:47:47</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>10/26/2015 11:52:52</publishTime>
+    </File>
+    <File Include="Duyurular.aspx">
+      <publishTime>10/01/2015 17:00:58</publishTime>
+    </File>
+    <File Include="HataBildir.aspx">
+      <publishTime>08/18/2015 13:45:24</publishTime>
+    </File>
+    <File Include="LisePuan.aspx">
+      <publishTime>08/16/2015 12:01:43</publishTime>
+    </File>
+    <File Include="LisePuanHesaplama.aspx">
+      <publishTime>08/11/2015 12:42:23</publishTime>
+    </File>
+    <File Include="Main.Master">
+      <publishTime>10/01/2015 16:02:13</publishTime>
+    </File>
+    <File Include="Main2.Master">
+      <publishTime>08/18/2015 21:47:01</publishTime>
+    </File>
+    <File Include="PuanHesaplama.aspx">
+      <publishTime>08/16/2015 15:54:40</publishTime>
+    </File>
+    <File Include="UniPuan.aspx">
+      <publishTime>08/16/2015 10:55:25</publishTime>
+    </File>
+    <File Include="UniPuanHesaplama.aspx">
+      <publishTime>08/10/2015 21:55:13</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/01/2015 17:18:37</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

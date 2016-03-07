@@ -1,0 +1,9 @@
+C:\Users\huseyin.yilmaz\Desktop\ProjeYerlestirme\TercihWeb\BAL\bin\Debug\BAL.dll
+C:\Users\huseyin.yilmaz\Desktop\ProjeYerlestirme\TercihWeb\BAL\bin\Debug\BAL.pdb
+C:\Users\huseyin.yilmaz\Desktop\ProjeYerlestirme\TercihWeb\BAL\bin\Debug\DAL.dll
+C:\Users\huseyin.yilmaz\Desktop\ProjeYerlestirme\TercihWeb\BAL\bin\Debug\DAL.pdb
+C:\Users\huseyin.yilmaz\Desktop\ProjeYerlestirme\TercihWeb\BAL\obj\Debug\BAL.csprojResolveAssemblyReference.cache
+C:\Users\huseyin.yilmaz\Desktop\ProjeYerlestirme\TercihWeb\BAL\obj\Debug\BAL.Properties.Resources.resources
+C:\Users\huseyin.yilmaz\Desktop\ProjeYerlestirme\TercihWeb\BAL\obj\Debug\BAL.csproj.GenerateResource.Cache
+C:\Users\huseyin.yilmaz\Desktop\ProjeYerlestirme\TercihWeb\BAL\obj\Debug\BAL.dll
+C:\Users\huseyin.yilmaz\Desktop\ProjeYerlestirme\TercihWeb\BAL\obj\Debug\BAL.pdb

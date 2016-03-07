@@ -1,0 +1,41 @@
+CREATE TABLE Il(
+ilNo INT PRIMARY KEY,
+ilAdi NVARCHAR(50),
+);
+
+CREATE TABLE Ilce(
+ilceNo INT PRIMARY KEY IDENTITY(1,1),
+ilceAdi NVARCHAR(50),
+);
+
+CREATE TABLE Iletisim (
+iletNo INT PRIMARY KEY IDENTITY(1,1),
+ilNo INT FOREIGN KEY REFERENCES Il(ilNo),
+ilceNo INT FOREIGN KEY REFERENCES Ilce(ilceNo)
+);
+
+CREATE TABLE OkulTuru (
+turNo INT PRIMARY KEY IDENTITY(1,1),
+turAdi NVARCHAR(50) NOT NULL,
+);
+
+CREATE TABLE YabanciDil(
+dilNo INT PRIMARY KEY IDENTITY(1,1),
+dilAdi NVARCHAR(50),
+);
+
+
+CREATE TABLE Okul (
+okulNo INT PRIMARY KEY IDENTITY(1,1),
+okulAdi NVARCHAR(200) NOT NULL,
+tabanPuani REAL NOT NULL,
+iletNo INT FOREIGN KEY REFERENCES Iletisim(iletNo),
+turNo INT FOREIGN KEY REFERENCES OkulTuru(turNo),
+dilNo INT FOREIGN KEY REFERENCES YabanciDil(dilNo)
+);
+
+drop table Okul
+drop table OkulTuru
+drop table YabanciDil
+drop table Iletisim
+drop table Ilce
